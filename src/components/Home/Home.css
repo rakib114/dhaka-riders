@@ -1,0 +1,19 @@
+.main-container {
+    background-image: url('../../img/Bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 960px;
+}
+
+.card-container {
+    margin: 50px;
+    padding-top: 200px;
+}
+
+@media all and (max-width: 771px){
+    .main-container{
+        height: 1650px;
+        text-align: center;
+    }
+}
